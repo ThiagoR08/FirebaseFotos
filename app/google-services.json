@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855508563960",
+    "firebase_url": "https://exfirebaseu-24395.firebaseio.com",
+    "project_id": "exfirebaseu-24395",
+    "storage_bucket": "exfirebaseu-24395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855508563960:android:9d244ba9e63ba20371880d",
+        "android_client_info": {
+          "package_name": "com.example.fbfotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855508563960-949re44bnrt0bad1ut7e8dnamrc0gpo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFi_3m-9zlXHEJvj_yTeD3hukmk6EHj7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855508563960-949re44bnrt0bad1ut7e8dnamrc0gpo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

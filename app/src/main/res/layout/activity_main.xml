@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnBuscaFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar foto" />
+
+    <ImageView
+        android:id="@+id/imgFotoDispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnUploadFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload foto" />
+
+    <ImageView
+        android:id="@+id/imgFotoDownload"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        tools:srcCompat="@tools:sample/avatars[4]" />
+
+    <Button
+        android:id="@+id/btnDownloadFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Foto"/>
+
+    <EditText
+        android:id="@+id/edtIndice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0" />
+
+
+</LinearLayout>
